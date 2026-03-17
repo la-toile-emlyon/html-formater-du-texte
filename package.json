@@ -3,7 +3,23 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "test-verbose": "jest --verbose"
+    "test-verbose": "jest --verbose",
+    "test-1": "jest -t 'Test n°1 :'",
+    "test-2": "jest -t 'Test n°2 :'",
+    "test-3": "jest -t 'Test n°3 :'",
+    "test-4": "jest -t 'Test n°4 :'",
+    "test-5": "jest -t 'Test n°5 :'",
+    "test-6": "jest -t 'Test n°6 :'",
+    "test-7": "jest -t 'Test n°7 :'",
+    "test-8": "jest -t 'Test n°8 :'",
+    "test-9": "jest -t 'Test n°9 :'",
+    "test-10": "jest -t 'Test n°10 :'",
+    "test-11": "jest -t 'Test n°11 :'",
+    "test-12": "jest -t 'Test n°12 :'",
+    "test-13": "jest -t 'Test n°13 :'",
+    "test-14": "jest -t 'Test n°14 :'",
+    "test-15": "jest -t 'Test n°15 :'",
+    "test-16": "jest -t 'Test n°16 :'"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
