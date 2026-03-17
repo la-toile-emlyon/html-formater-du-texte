@@ -1,0 +1,17 @@
+{
+  "name": "cdweb-html-formater-du-texte",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "test-verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "jsdom": "^23.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
