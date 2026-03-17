@@ -143,6 +143,22 @@ jobs:
         command: npm run test-16
         timeout: 1
         max-score: 1
+    - name: Test n°17 - Langue du document fr (bonus)
+      id: t17
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Langue du document fr
+        command: npm run test-17
+        timeout: 1
+        max-score: 1
+    - name: Test n°18 - Title modifié (bonus)
+      id: t18
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Title modifié
+        command: npm run test-18
+        timeout: 1
+        max-score: 1
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
@@ -162,5 +178,7 @@ jobs:
         T14_RESULTS: "${{steps.t14.outputs.result}}"
         T15_RESULTS: "${{steps.t15.outputs.result}}"
         T16_RESULTS: "${{steps.t16.outputs.result}}"
+        T17_RESULTS: "${{steps.t17.outputs.result}}"
+        T18_RESULTS: "${{steps.t18.outputs.result}}"
       with:
-        runners: t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16
+        runners: t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18

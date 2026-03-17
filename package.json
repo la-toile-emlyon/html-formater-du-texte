@@ -19,7 +19,9 @@
     "test-13": "jest -t 'Test n°13 :'",
     "test-14": "jest -t 'Test n°14 :'",
     "test-15": "jest -t 'Test n°15 :'",
-    "test-16": "jest -t 'Test n°16 :'"
+    "test-16": "jest -t 'Test n°16 :'",
+    "test-17": "jest -t 'Test n°17 :'",
+    "test-18": "jest -t 'Test n°18 :'"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",

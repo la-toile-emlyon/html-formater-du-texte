@@ -209,4 +209,21 @@ describe('HTML Formater du texte', () => {
     const textNodes = Array.from(body.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim() !== '');
     expect(textNodes.length).toBe(0);
   });
+
+  test('Test n°17 (bonus): La langue du document doit être définie sur fr', () => {
+    // Document language must be set to fr
+    // La langue du document doit être définie sur fr
+    const htmlElement = document.documentElement;
+    expect(htmlElement).toBeTruthy();
+    const lang = htmlElement.getAttribute('lang');
+    expect(lang).toBe('fr');
+  });
+
+  test('Test n°18 (bonus): Le title du document doit être modifié (pas "Document")', () => {
+    // Document title must be modified (not "Document")
+    // Le titre du document doit être modifié (pas "Document")
+    const title = document.title;
+    expect(title).toBeTruthy();
+    expect(title).not.toBe('Document');
+  });
 });
