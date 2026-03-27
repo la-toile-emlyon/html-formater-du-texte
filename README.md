@@ -54,17 +54,11 @@ Pensez à indenter votre code pour le rendre plus lisible.
 > 5. Beurrer un moule à manqué et y verser la pâte.
 > 6. Mettre au four 30 min à 180°C (thermostat 6), en surveillant régulièrement.
 
-
-Etape par étape
--------------------
-
-### 🔁 La routine
+## Etape par étape
 
 1. Cloner le projet avec Github Desktop.
 2. Créer un fichier `index.html`
-3. Ajouter le squelette HTML de base : dans VS Code, appuyez sur `!` puis sur `Entrée`. 
-Pour l'instant, concentrons-nous
-
+3. Ajouter le squelette HTML de base : dans VS Code, appuyez sur `!` puis sur `Entrée`.
 
 ```html
 <!DOCTYPE html>
@@ -75,13 +69,12 @@ Pour l'instant, concentrons-nous
   <title>Document</title>
 </head>
 <body>
-  
+  <!-- Votre contenu ici -->
 </body>
 </html>
 ```
 
 ## 🚀 Comment tester votre code
-
 
 Vous allez devoir utiliser un terminal : pour ouvrir le terminal depuis vscode, appuyer sur `ctrl` + `ù`.
 
