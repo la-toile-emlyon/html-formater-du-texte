@@ -12,6 +12,8 @@ Vous allez créer une page web présentant une recette de cuisine.
 - Ajoutez un sous-titre (**titre de niveau 2**) _"Préparation"_ suivi d'une liste des étapes de préparation (**liste ordonnée**)
 Utiliser l'attribut `type` de la liste ordonnée pour spécifier le type de numérotation.
 
+![aperçu du rendu](./assets/preview.png)
+
 ### Balises à utiliser
   - titres `h1`, `h2` etc.
   - paragraphes `p` et sauts de ligne `br`
