@@ -82,7 +82,10 @@ Pour l'instant, concentrons-nous
 
 ## 🚀 Comment tester votre code
 
-Avant le premier test, lancez la commande suivante pour installer les dépendances du projets.
+
+Vous allez devoir utiliser un terminal : pour ouvrir le terminal depuis vscode, appuyer sur `ctrl` + `ù`.
+
+Lancez la commande suivante pour installer les dépendances du projets (une seule fois suffit) :
 
 ```bash
 npm install
